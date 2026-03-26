@@ -52,19 +52,18 @@ body {
 }
 
 .category {
-  width: 1000px;
-  height: 1000px;
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
 }
 
 .box1 {
   width: 160px;
   height: 100px;
   background-color: white;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 1px;
-  margin-top: -20px;
   border-radius: 12px;
   font-size: 20px;
   font-weight: bold;
@@ -94,7 +93,7 @@ body {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-left: 135px;
+  text-align: center;
 }
 
 .login form {
@@ -104,15 +103,17 @@ body {
 }
 
 .login input {
-  width: 280px;
-  height: 30px;
+  width: 80%;
+  height: 45px;
   padding: 12px;
-  margin-left: 20px;
+  box-sizing: border-box;
   border-radius: 25px;
   border: none;
+  margin: 0 auto;
 }
 
 .login button {
+  width: 100%;
   margin-top: 10px;
   height: 45px;
   border-radius: 20px;
@@ -123,6 +124,6 @@ body {
   font-weight: bold;
 }
 
-.category div:hover {
+.box1:hover {
   background-color: darkorange;
 }
