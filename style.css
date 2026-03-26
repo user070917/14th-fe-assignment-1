@@ -135,6 +135,10 @@ input::placeholder {
   background-color: darkorange;
 }
 
+button:hover {
+  background-color: darkorange;
+}
+
 .input-box {
   position: relative;
   width: 80%;
