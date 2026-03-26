@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>FE 1주차 과제</title>
   </head>
@@ -39,8 +40,14 @@
             <div class="login">
               <span>Login</span>
               <form>
-                <input type="text" name="아이디" placeholder="username" />
-                <input type="password" name="비밀번호" placeholder="password" />
+                <div class="input-box">
+                  <i class="fas fa-user icon"></i>
+                  <input type="text" placeholder="username" />
+                </div>
+                <div class="input-box">
+                  <i class="fas fa-lock icon"></i>
+                  <input type="password" placeholder="password" />
+                </div>
                 <button type="submit">로그인</button>
               </form>
             </div>
