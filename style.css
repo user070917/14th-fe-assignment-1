@@ -104,8 +104,6 @@ body {
 
 input::placeholder {
   font-weight: bold;
-  align-items: center;
-  justify-content: center;
 }
 
 .login button {
@@ -129,6 +127,7 @@ input::placeholder {
 }
 
 .input-box {
+  display: flex;
   position: relative;
   width: 80%;
   margin: 0 auto;
